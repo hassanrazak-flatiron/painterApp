@@ -1,6 +1,17 @@
+import './App.css'
+
 const Canvas = () =>{
     return (
-        <div></div>
+        <>
+        <div >
+            <h1>Paint Here</h1>
+        </div>
+        <div id = "canvas">
+            
+
+        </div>
+        
+        </>
     )
 }
 
