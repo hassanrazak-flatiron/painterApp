@@ -37,24 +37,24 @@ justify-content: start;
 }
 
 #one{
-  color:rgb(11, 11, 11)
+  color:rgb(234, 14, 14)
 }
 
 
 #two{
-  color:rgb(64, 18, 216)
+  color:rgb(16, 140, 18)
 }
 
 #three{
-  color:rgb(249, 240, 246)
+  color:rgb(91, 25, 223)
 }
 
 #four{
-  color:rgb(239, 235, 41)
+  color:rgb(229, 61, 15)
 }
 
 #five{
-  color:rgb(42, 189, 229)
+  color:rgb(39, 189, 54)
 }
 
 h1{
@@ -66,8 +66,8 @@ h1{
 #form{
   display:flex;
   flex-direction:row;
-  margin-left: 0.5em;
-  color: rgb(16, 134, 224);
+  margin-left: 5em;
+  color: rgb(201, 23, 32);
   text-align: center;
 }
 
@@ -90,6 +90,11 @@ h1{
   color:rgb(236, 242, 246);
   text-align: start;
   align-items:center;
+}
+
+#contact{
+  margin-top: 0em;
+  margin-bottom: 1em;
 }
 
 
