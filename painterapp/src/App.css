@@ -6,6 +6,7 @@
 .font-link{
   font-family: 'Graffiti font', sans-serif;
 }
+
 :root{ 
   background: url('https://images.pexels.com/photos/1585325/pexels-photo-1585325.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -29,8 +30,9 @@
   flex-direction: column;
   margin: 1em;
   background:rgb(79, 4, 4);
-  opacity: 50%;
+  opacity: 80%;
   text-align: center;
+  border-style: solid;
 }
 
 h1{
@@ -60,12 +62,16 @@ h1{
 #footer{
   display: flex;
   margin: 1em;
-  flex-direction: column;
-  
+  flex-direction: row;  
   justify-content: center;
   border: 2px dashed black;
-  color:white;
-   background-color:rgb(128, 5, 5);
-  opacity: 60%;
+  color:rgb(17, 85, 133);
+   background-color:rgb(5, 5, 5);
+  opacity: 80%;
+  text-align: center;
+}
+
+#footer > div{
+margin-left: 4em;
 }
 

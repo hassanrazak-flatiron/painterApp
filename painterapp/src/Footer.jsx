@@ -1,9 +1,20 @@
 const Footer = () => {
     return ( 
         <div id = 'footer'>
-            <p className="font-link">Sebasitan Otaola</p>
-            <p className="font-link">Hassan Razak</p>
-            <p className="font-link">Contact Us</p>
+            <div>
+            <p className="font-link">Sebasitan</p>
+            <p className="font-link">Otaola</p>
+            </div>
+
+            <div>
+                <p className="font-link">Hassan</p>
+                <p className="font-link">Razak</p>
+            </div>
+            <div>
+            <p className="font-link">Contact</p>
+            <p className="font-link">Us</p>
+
+            </div>
         </div>
      );
 }
