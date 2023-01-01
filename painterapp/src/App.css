@@ -4,8 +4,9 @@
 }
 
 .font-link{
-  font-family: 'Graffiti font', sans-serif;
+  font-family: 'Toddy Paint Brush', sans-serif;
 }
+
 
 :root{ 
   background: url('https://images.pexels.com/photos/1585325/pexels-photo-1585325.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center fixed; 
@@ -13,7 +14,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100vh; 
+  height: 95vh; 
   width:100%; 
 }
 
@@ -27,16 +28,18 @@
   color: whitesmoke;
   font-weight: 900;
   display:flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex:1;
   margin: 1em;
-  background:rgb(79, 4, 4);
-  opacity: 80%;
-  text-align: center;
-  border-style: solid;
+  /* background:rgb(79, 4, 4); */
+  /* opacity: 80%; */
+  justify-content: center;
+  /* border-style: solid; */
+  margin-bottom: auto;
 }
 
 h1{
-  color:rgb(17, 85, 133);
+  color:rgb(247, 248, 249);
 
 }
 
@@ -55,7 +58,9 @@ h1{
   margin: 1em;
   justify-content: center;
   border: 2px dashed black;
-  height:75vh;
+  height: 75vh;
+  opacity: 80%;
+
 
 }
 
@@ -63,12 +68,14 @@ h1{
   display: flex;
   margin: 1em;
   flex-direction: row;  
-  justify-content: center;
+  justify-content:center;
   border: 2px dashed black;
   color:rgb(17, 85, 133);
    background-color:rgb(5, 5, 5);
   opacity: 80%;
   text-align: center;
+  margin-top: auto;
+  align-items:center;
 }
 
 #footer > div{
