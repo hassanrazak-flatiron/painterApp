@@ -1,51 +1,71 @@
+* {
+  margin: 0px;
+  padding:0px;
+}
+
 .font-link{
   font-family: 'Graffiti font', sans-serif;
 }
-html { 
+:root{ 
   background: url('https://images.pexels.com/photos/1585325/pexels-photo-1585325.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 100vh; 
+  width:100%; 
 }
 
-
-
-.header{
+.App{
   display: flex;
-  flex:space-between;
-  flex-direction: row;
-}
+  flex-direction: column;
+  margin: 1em;
 
-h1{
-  color:white;
-  font-size: 4em;
-  margin-top: 0;
+}
+#header{
+  color: whitesmoke;
+  font-weight: 900;
+  display:flex;
+  flex-direction: column;
+  margin: 1em;
+  background:rgb(79, 4, 4);
+  opacity: 50%;
   text-align: center;
 }
 
-p{
-  color:white;
-  font-size: 2em;
-  margin-left: 1em;
-  font-weight: 600;
+h1{
+  color:rgb(17, 85, 133);
+
+}
+
+
+#color-bar{
+  display: flex;
+  background-color: white;
+  margin: 1em;
+  justify-content: center;
+  border: 2px dashed black;
 }
 
 #canvas{
-  display:flex;
-  flex: 1;
-  background-color: rgb(242, 242, 237);
-  height: 50em;
-  width: 95vw;
-  border-width: 0.5em;
-  border-color: black;
-  border-style: ridge;
-  }
-
-.footer{
   display: flex;
-  flex-direction: row;
-  flex:space-between;
-  margin-top: 15em;
-  
+  background-color: white;
+  margin: 1em;
+  justify-content: center;
+  border: 2px dashed black;
+  height:75vh;
+
 }
+
+#footer{
+  display: flex;
+  margin: 1em;
+  flex-direction: column;
+  
+  justify-content: center;
+  border: 2px dashed black;
+  color:white;
+   background-color:rgb(128, 5, 5);
+  opacity: 60%;
+}
+

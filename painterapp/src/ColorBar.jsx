@@ -1,7 +1,7 @@
 const ColorBar = () =>{
     return(
-        <div className="color-bar">
-            this is the color bar
+        <div id="color-bar">
+            <p>color bar</p>
 
         </div>
     )
