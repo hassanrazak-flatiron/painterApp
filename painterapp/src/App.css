@@ -1,3 +1,6 @@
+.font-link{
+  font-family: 'Graffiti font', sans-serif;
+}
 html { 
   background: url('https://images.pexels.com/photos/1585325/pexels-photo-1585325.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -6,27 +9,43 @@ html {
   background-size: cover;
 }
 
-#canvas{
-  background-color: rgb(242, 242, 237);
-  height: 80em;
-  width: 60em;
-  display: flexbox;
-  float: right;
-  justify-content: center;
+
+
+.header{
+  display: flex;
+  flex:space-between;
+  flex-direction: row;
+}
+
+h1{
+  color:white;
+  font-size: 4em;
+  margin-top: 0;
   text-align: center;
-  font-size: em;
-  margin-top: 1em;
-  margin-right: 5em;
+}
+
+p{
+  color:white;
+  font-size: 2em;
+  margin-left: 1em;
+  font-weight: 600;
+}
+
+#canvas{
+  display:flex;
+  flex: 1;
+  background-color: rgb(242, 242, 237);
+  height: 50em;
+  width: 95vw;
   border-width: 0.5em;
   border-color: black;
-
   border-style: ridge;
   }
 
-h1{
-  display: flexbox;
-  justify-content: center;
-  text-align: center;
-  font-size: 5em;
+.footer{
+  display: flex;
+  flex-direction: row;
+  flex:space-between;
+  margin-top: 15em;
+  
 }
-

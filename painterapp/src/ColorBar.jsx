@@ -1,6 +1,9 @@
 const ColorBar = () =>{
     return(
-        <div></div>
+        <div className="color-bar">
+            this is the color bar
+
+        </div>
     )
 }
 
