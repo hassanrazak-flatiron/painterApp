@@ -2,15 +2,18 @@ import './App.css';
 import ColorBar from './ColorBar';
 import Canvas from './Canvas';
 import Header from './Header';
-import Footer from './Footer';
+import Form from './Form';
 
 function App() {
   return (
     <div className="App">
+      <div id = 'heading'>
       <Header />
+      <Form />
+      </div>
       <ColorBar />
       <Canvas />
-      <Footer />
+      
     </div>
   );
 }
