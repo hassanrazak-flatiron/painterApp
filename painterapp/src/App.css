@@ -7,8 +7,11 @@
   font-family: 'Toddy Paint Brush', sans-serif;
 }
 
+:root{
+  background-color: black;
+}
 
-:root{ 
+#canvas{ 
   background: url('https://images.pexels.com/photos/1585325/pexels-photo-1585325.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -114,7 +117,9 @@ h1{
   justify-content: center;
   border: 2px dashed black;
   height: 75vh;
-  opacity: 80%;
+  border-style: groove;
 
+  border-width: 1em;
+  border-color: white;
 
 }
