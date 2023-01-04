@@ -1,12 +1,8 @@
 const Header = () => {
     return ( 
         <div id = 'header' >
-            <h1 id='one'className = "font-link">P <span id='two'>A</span> <span id="three">I</span> <span id='four'>N</span> <span id='five'>T</span></h1>
-            <h1 id='two' className = "font-link">A <span id="three">I</span> <span id='four'>N</span> <span id='five'>T</span></h1>
-            <h1 id='three'className = "font-link">I <span id='four'>N</span> <span id='five'>T</span></h1>
-            <h1 id='four'className = "font-link">N <span id='five'>T</span></h1>
-            <h1 id='five' className = "font-link">T</h1>
-
+            <h1 className = "font-link">P<span>E</span><span>R</span><span>S</span><span>O</span><span>N</span><span>A</span><span>L</span></h1>
+            <h1 className = "font-link">M<span>U</span><span>S</span><span>E</span><span>U</span><span>M</span></h1>
            
         </div>
      );

@@ -4,11 +4,19 @@
 }
 
 .font-link{
-  font-family: 'Toddy Paint Brush', sans-serif;
+  font-family: source-sans-pro;
 }
 
 :root{
-  background-color: black;
+  background-color: rgb(255, 255, 255);
+}
+
+#category{
+  border-radius: 12px;
+  color:rgb(113, 113, 113);
+  width:17%;
+  margin-top: 10px;
+  margin-left: 14px;
 }
 
 #canvas{ 
@@ -18,7 +26,7 @@
   -o-background-size: cover;
   background-size: cover;
   height: 95vh; 
-  width:100%; 
+  width:80%; 
 }
 
 .App{
@@ -35,35 +43,13 @@
   flex:1;
   margin: 1em;
 
-justify-content: start;
   margin-bottom: auto;
 }
 
-#one{
-  color:rgb(234, 14, 14)
-}
-
-
-#two{
-  color:rgb(16, 140, 18)
-}
-
-#three{
-  color:rgb(91, 25, 223)
-}
-
-#four{
-  color:rgb(229, 61, 15)
-}
-
-#five{
-  color:rgb(39, 189, 54)
-}
-
-h1{
-  color:rgb(247, 248, 249);
-  border-right: 3px solid red;
-
+#header{
+  padding-right: 20px;
+  border-right: 3px solid rgb(113, 113, 113);
+  color:rgb(113, 113, 113)
 }
 
 #form{
