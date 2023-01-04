@@ -13,10 +13,11 @@
 
 #category{
   border-radius: 12px;
-  color:rgb(113, 113, 113);
+  color:white;
   width:17%;
   margin-top: 10px;
   margin-left: 14px;
+  background-color: rgb(113, 113, 113);
 }
 
 #canvas{ 
@@ -108,4 +109,8 @@
   border-width: 1em;
   border-color: white;
 
+}
+
+.paintingImg{
+  width: 10%;
 }

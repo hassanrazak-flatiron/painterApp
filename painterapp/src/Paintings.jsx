@@ -1,13 +1,13 @@
-const Paintings = ({painting, setPaintingIsClicked})=>{
+const Paintings = ({painting})=>{
     
     const handleClick =()=>{
-        setPaintingIsClicked({painting})
+        
     }
     
     return (
         <div onClick={handleClick}>
-            <img src={null} alt={null}></img>
-            <h2>test</h2>
+            <img className="paintingImg" src={painting.imageURL} alt={painting.title}></img>
+            <h2>{painting.title}</h2>
             <p></p>
         </div>
     )

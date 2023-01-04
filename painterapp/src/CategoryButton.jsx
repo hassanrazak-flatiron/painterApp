@@ -1,11 +1,16 @@
-const CategoryButton = () =>{
+const CategoryButton = ({setCategory}) =>{
+
+    function handleChange(e){
+        setCategory(e.target.value)
+        console.log(e.target.value)
+    }
 
     return (
         <div id="button" >
-            <select name="category" id="category">
+            <select onChange={handleChange} name="Galleries" id="category">
             <option value="paintings">Paintings</option>
-            <option value="artwork">Artwork</option>
             <option value="sculpture">Sculpture</option>
+            <option value="personal">Personal</option>
             </select>
         </div>
         

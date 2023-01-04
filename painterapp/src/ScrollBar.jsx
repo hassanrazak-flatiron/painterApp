@@ -1,10 +1,15 @@
 import Paintings from "./Paintings"
 
-const ScrollBar = ({paintings, setPaintingIsClicked}) =>{
+const ScrollBar = ({paintings, category}) =>{
+    
+    const filteredList = paintings.filter(item =>{
+        return item.category === category.toLowerCase()
+    })
+    
     return(
         <div id="color-bar">
-            {paintings.map(painting =>{
-                return <Paintings painting={painting} setPaintingIsClicked={setPaintingIsClicked}/>
+            {filteredList.map(painting =>{
+                return <Paintings key={painting.id} painting={painting}/>
             })}
         </div>
     )

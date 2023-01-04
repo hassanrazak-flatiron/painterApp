@@ -1,0 +1,88 @@
+{
+    "paintings": [
+       {
+            "id": 1,
+            "title": "Man from Down Under, The",
+            "Artist": "Fifth Street Finance Corp.",
+            "imageURL": "https://images.theconversation.com/files/226736/original/file-20180709-122271-nk7jdx.jpg?ixlib=rb-1.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip",
+            "Date": 2009,
+            "Description": "Advanced Drainage Systems, Inc.",
+            "category": "paintings"
+        }, 
+        {
+            "id": 2,
+            "title": "Cross of Lorraine, The",
+            "Artist": "Whiting Petroleum Corporation",
+            "imageURL": "https://images.theconversation.com/files/226736/original/file-20180709-122271-nk7jdx.jpg?ixlib=rb-1.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip",
+            "Date": 1993,
+            "Description": "Urban One, Inc. ",
+            "category": "paintings"
+       }, 
+       {
+            "id": 3,
+            "title": "Ernest Goes to Africa",
+            "Artist": "Bay Bancorp, Inc.",
+            "imageURL": "https://images.theconversation.com/files/226736/original/file-20180709-122271-nk7jdx.jpg?ixlib=rb-1.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip",
+            "Date": 2001,
+            "Description": "Altisource Portfolio Solutions S.A.",
+            "category": "paintings"
+         }, {
+           "id": 4,
+           "title": "Read It and Weep",
+           "Artist": "VictoryShares US 500 Volatility Wtd ETF",
+           "imageURL": "https://images.theconversation.com/files/226736/original/file-20180709-122271-nk7jdx.jpg?ixlib=rb-1.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip",
+           "Date": 1996,
+           "Description": "Analog Devices, Inc.",
+           "category": "sculpture"
+           }, {
+             "id": 5,
+             "title": "Plague Dogs, The",
+             "Artist": "Dr Pepper Snapple Group, Inc",
+             "imageURL": "https://images.theconversation.com/files/226736/original/file-20180709-122271-nk7jdx.jpg?ixlib=rb-1.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip",
+             "Date": 2000,
+             "Description": "Altimmune, Inc.",
+             "category": "sculpture"
+             }, {
+       "id": 6,
+       "title": "Apartment Zero",
+       "Artist": "Public Storage",
+       "imageURL": "https://images.theconversation.com/files/226736/original/file-20180709-122271-nk7jdx.jpg?ixlib=rb-1.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip",
+       "Date": 2008,
+       "Description": "Pingtan Marine Enterprise Ltd.",
+       "category": "sculpture"
+       }, {
+         "id": 7,
+         "title": "Escape From Tomorrow",
+         "Artist": "Speedway Motorsports, Inc.",
+         "imageURL": "https://images.theconversation.com/files/226736/original/file-20180709-122271-nk7jdx.jpg?ixlib=rb-1.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip",
+         "Date": 2000,
+         "Description": "Lincoln Educational Services Corporation",
+         "category": "sculpture"
+         }, {
+           "id": 8,
+           "title": "Phantom Lover, The (Ye ban ge sheng)",
+           "Artist": "Skechers U.S.A., Inc.",
+           "imageURL": "https://images.theconversation.com/files/226736/original/file-20180709-122271-nk7jdx.jpg?ixlib=rb-1.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip",
+           "Date": 2005,
+           "Description": "TerraVia Holdings, Inc.",
+           "category": "sculpture"
+           }, 
+           {
+             "id": 9,
+             "title": "Kramer vs. Kramer",
+             "Artist": "Kemper Corporation",
+             "imageURL": "https://images.theconversation.com/files/226736/original/file-20180709-122271-nk7jdx.jpg?ixlib=rb-1.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip",
+             "Date": 1996,
+             "Description": "Public Storage",
+             "category": "sculpture"
+             }, {
+               "id": 10,
+               "title": "Torn Curtain",
+               "Artist": "California Water  Service Group Holding",
+               "imageURL": "https://images.theconversation.com/files/226736/original/file-20180709-122271-nk7jdx.jpg?ixlib=rb-1.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip",
+               "Date": 1999,
+               "Description": "Pioneer High Income Trust",
+               "category": "paintings"
+             }
+           ]
+         }
