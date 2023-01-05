@@ -49,8 +49,8 @@ const Paintings = ({painting, setPaintings, paintings})=>{
     }
     
     return (
-        <div onClick={handleClick} onMouseEnter={handleHover} onMouseLeave={handleHoverLeave} className="eachPainting">
-            <img className="paintingImg" src={painting.imageURL} alt={painting.title}></img>
+        <div onMouseEnter={handleHover} onMouseLeave={handleHoverLeave} className="eachPainting">
+            <img onClick={handleClick} className="paintingImg" src={painting.imageURL} alt={painting.title}></img>
             <h4 className="paintingTitle">{painting.title}</h4>
             <h4 className="paintingDate">{painting.Date}</h4>
             {isHover ? (
