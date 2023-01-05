@@ -1,88 +1,22 @@
 {
-    "paintings": [
-       {
-            "id": 1,
-            "title": "Man from Down Under, The",
-            "Artist": "Fifth Street Finance Corp.",
-            "imageURL": "https://images.theconversation.com/files/226736/original/file-20180709-122271-nk7jdx.jpg?ixlib=rb-1.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip",
-            "Date": 2009,
-            "Description": "Advanced Drainage Systems, Inc.",
-            "category": "paintings"
-        }, 
-        {
-            "id": 2,
-            "title": "Cross of Lorraine, The",
-            "Artist": "Whiting Petroleum Corporation",
-            "imageURL": "https://images.theconversation.com/files/226736/original/file-20180709-122271-nk7jdx.jpg?ixlib=rb-1.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip",
-            "Date": 1993,
-            "Description": "Urban One, Inc. ",
-            "category": "paintings"
-       }, 
-       {
-            "id": 3,
-            "title": "Ernest Goes to Africa",
-            "Artist": "Bay Bancorp, Inc.",
-            "imageURL": "https://images.theconversation.com/files/226736/original/file-20180709-122271-nk7jdx.jpg?ixlib=rb-1.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip",
-            "Date": 2001,
-            "Description": "Altisource Portfolio Solutions S.A.",
-            "category": "paintings"
-         }, {
-           "id": 4,
-           "title": "Read It and Weep",
-           "Artist": "VictoryShares US 500 Volatility Wtd ETF",
-           "imageURL": "https://images.theconversation.com/files/226736/original/file-20180709-122271-nk7jdx.jpg?ixlib=rb-1.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip",
-           "Date": 1996,
-           "Description": "Analog Devices, Inc.",
-           "category": "sculpture"
-           }, {
-             "id": 5,
-             "title": "Plague Dogs, The",
-             "Artist": "Dr Pepper Snapple Group, Inc",
-             "imageURL": "https://images.theconversation.com/files/226736/original/file-20180709-122271-nk7jdx.jpg?ixlib=rb-1.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip",
-             "Date": 2000,
-             "Description": "Altimmune, Inc.",
-             "category": "sculpture"
-             }, {
-       "id": 6,
-       "title": "Apartment Zero",
-       "Artist": "Public Storage",
-       "imageURL": "https://images.theconversation.com/files/226736/original/file-20180709-122271-nk7jdx.jpg?ixlib=rb-1.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip",
-       "Date": 2008,
-       "Description": "Pingtan Marine Enterprise Ltd.",
-       "category": "sculpture"
-       }, {
-         "id": 7,
-         "title": "Escape From Tomorrow",
-         "Artist": "Speedway Motorsports, Inc.",
-         "imageURL": "https://images.theconversation.com/files/226736/original/file-20180709-122271-nk7jdx.jpg?ixlib=rb-1.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip",
-         "Date": 2000,
-         "Description": "Lincoln Educational Services Corporation",
-         "category": "sculpture"
-         }, {
-           "id": 8,
-           "title": "Phantom Lover, The (Ye ban ge sheng)",
-           "Artist": "Skechers U.S.A., Inc.",
-           "imageURL": "https://images.theconversation.com/files/226736/original/file-20180709-122271-nk7jdx.jpg?ixlib=rb-1.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip",
-           "Date": 2005,
-           "Description": "TerraVia Holdings, Inc.",
-           "category": "sculpture"
-           }, 
-           {
-             "id": 9,
-             "title": "Kramer vs. Kramer",
-             "Artist": "Kemper Corporation",
-             "imageURL": "https://images.theconversation.com/files/226736/original/file-20180709-122271-nk7jdx.jpg?ixlib=rb-1.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip",
-             "Date": 1996,
-             "Description": "Public Storage",
-             "category": "sculpture"
-             }, {
-               "id": 10,
-               "title": "Torn Curtain",
-               "Artist": "California Water  Service Group Holding",
-               "imageURL": "https://images.theconversation.com/files/226736/original/file-20180709-122271-nk7jdx.jpg?ixlib=rb-1.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip",
-               "Date": 1999,
-               "Description": "Pioneer High Income Trust",
-               "category": "paintings"
-             }
-           ]
-         }
+  "museum": [
+    {
+      "id": 1,
+      "title": "Man from Down Under, The",
+      "Artist": "Fifth Street Finance Corp.",
+      "imageURL": "https://images.theconversation.com/files/226736/original/file-20180709-122271-nk7jdx.jpg?ixlib=rb-1.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip",
+      "Date": 2009,
+      "Description": "Advanced Drainage Systems, Inc.",
+      "category": "Painting"
+    },
+    {
+      "title": "Poker Night",
+      "Artist": "Sebastian Otalora",
+      "imageURL": "https://lh3.googleusercontent.com/9RdPBrELiSK2hV3f7OkhWr_HKNfRnDdFKA_H3YmNZy6ndo3er0wHaNF5dDHfUS17ZhLLrcWbi7fKA3OJjmhfHGNcgeIgkID51P-S3qzY09dhEO-rQMczGzWpieQD3eMPuZde-xWrtZbA7iSXo418XcK7FeSXykyAUPwhqaqK6photQFZwzZsUMjmtCCRjhVa9ZEc8PII6NApw5ymGf9D4dAh4FTAzYf785pE_4wa45wpv01nXnKrf-TYMug_Ib-fKfL4T6IjWwkhdYZEldGvhk56S8jnM2BrkrmQ_1mOaSRUB4MtcOjDuld62WkpZMlEm9xpysZv7h4ROuPiWlPAs7jLYgY3SXplfGuqVl1sCSDNM5uI8sH572W1q8UXZpIe2wyzVsqDlYZ8VSR0qMYjTBpiYnz44QAvqxFez7FC-u6MEeFJvveOC6U_4jNmTOejVD0rOolkAtHSUXzxd5yOiEe_HEbDuVo2k7V75ac2vQNIpQGpfwplbbKefWBb7dDDbIG99QrmSlhoNV-xG5twSrFZgajbqvWGuJ-PyBYvBZQmVZVGOgEE-gYB3KgnrjI_FS5Ku1tETbsEa30j1yskxYV-tOZ1-YRQnst8SWiSlMKndPW_lUXSDvO7NSbFkCCDM25dEClOz_9FIBnsRwKuhkk9IfPVli_6wXvQPbjubVfvWZz88YkoQOIzTBRWlJxVXjFwrQmBJ9lopqAZOfr0lqBStTIXrjnNUa_Mg4hVb3hhH7mWkLWPfvBSinv6Reot0GCRDA4PAGyq7XG3qBMrUDjibO7ZoR_q8FJN7KoLVx1JtqRaS-af4AkRLqIcJRq6mIc8C3NpW9mzvNK-VqwRCwtQfsLVjcV0eA_1ITWWi_XdWLU59DqGrzowHcu8I8K49opHdS7pj3_Uxfpd9h0gd2LmjDrYYQRYRUVec1mtsYLAJ8F3uLQAJHPjsnzCb_7Srszi8Zg9SO8IXiSLSf7l=s1484-no?authuser=0",
+      "Date": 2023,
+      "Description": "Based off the long nights of poker I play with friends.",
+      "category": "Personal",
+      "id": 2
+    }
+  ]
+}

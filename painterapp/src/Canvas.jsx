@@ -1,13 +1,18 @@
 
-const Canvas = ({painting}) =>{
+const Canvas = ({paintings, id}) =>{
+
+    //select the painting from useState and id taken from Paintings.jsx
+    const painting = paintings[id-1]
 
     return (
         <div id = "canvas">
-            <img src={painting.imageURL} alt={painting.title}></img>
-            <h1>{painting.title}</h1>
-            <h4>{painting.Artist}</h4>
-            <p>{painting.Descrption}</p>
-            <p>{painting.Date}</p>
+            <img id="paintingCanvas" src={painting.imageURL} alt={painting.title}></img>
+            <div id = "paintingInfo">
+                <h1 id="paintingTitleInfo" >{painting.title}</h1>
+                <h4>{painting.Artist}</h4>
+                <p id="paintingDesInfo" >{painting.Description}</p>
+                <p>{painting.Date}</p>
+            </div>
         </div>
         
     )
