@@ -12,10 +12,20 @@ const CanvasPage=({paintings})=>{
     
     return(
         <div>
-            <div id = 'heading'>
+            <div>
                 <Header />
             </div>
             <Canvas id={id} painting={painting}/>
+            <div id = "paintingInfo">
+
+                <div id = 'painting-header'>
+                    <h2 className="painting-header" >{painting.title}</h2>
+                    <h4 className="painting-header">{painting.Date}</h4>
+                    <h4 className="painting-header">{painting.Artist}</h4><br></br>
+                </div>
+
+                <p id="paintingDesInfo" >{painting.Description}</p>
+            </div>
         </div>
     )
 }
