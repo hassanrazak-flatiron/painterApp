@@ -45,7 +45,6 @@ function App() {
 
   return (
     <div className="App">
-      <Video />
       <RouterProvider router={router} />
     </div>
   );
