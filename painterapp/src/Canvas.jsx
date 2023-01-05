@@ -1,8 +1,5 @@
 
-const Canvas = ({paintings, id}) =>{
-
-    //select the painting from useState and id taken from Paintings.jsx
-    const painting = paintings[id-1]
+const Canvas = ({painting}) =>{
 
     return (
         <div id = "canvas">

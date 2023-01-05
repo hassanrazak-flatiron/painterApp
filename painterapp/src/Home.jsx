@@ -10,7 +10,7 @@ const Home = ({setPaintings, paintings, setCategory, category})=>{
                 <Header />
             </div>
             <CategoryButton setCategory={setCategory}/>
-            <ScrollBar setPaintings={setPaintings} category={category} paintings={paintings}/>
+            <ScrollBar setCategory={setCategory} setPaintings={setPaintings} category={category} paintings={paintings}/>
         </div>
     )
 }

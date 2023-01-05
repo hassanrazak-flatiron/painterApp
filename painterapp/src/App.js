@@ -2,6 +2,7 @@ import './App.css';
 import CanvasPage from './CanvasPage';
 import Home from './Home';
 import Form from './Form'
+import Video from './Video';
 import { useEffect, useState } from 'react';
 import {
   createBrowserRouter,
@@ -13,7 +14,7 @@ function App() {
 
   //useStates for json array and base category
   const [paintings, setPaintings] = useState([])
-  const [category, setCategory] = useState("Painting")
+  const [category, setCategory] = useState("Paintings")
 
   //routes for the router(contains home, canvasPage and Form)
   const router = createBrowserRouter([
@@ -44,8 +45,9 @@ function App() {
 
   return (
     <div className="App">
-        <RouterProvider router={router} />
-      </div>
+      <Video />
+      <RouterProvider router={router} />
+    </div>
   );
 }
 

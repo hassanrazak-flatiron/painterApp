@@ -8,7 +8,7 @@ const CategoryButton = ({setCategory}) =>{
     return (
         <div id="button" >
             <select onChange={handleChange} name="Galleries" id="category">
-            <option value="painting">Paintings</option>
+            <option value="paintings">Paintings</option>
             <option value="sculpture">Sculpture</option>
             <option value="personal">Personal</option>
             </select>
