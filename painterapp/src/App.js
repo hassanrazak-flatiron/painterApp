@@ -2,7 +2,6 @@ import './App.css';
 import CanvasPage from './CanvasPage';
 import Home from './Home';
 import Form from './Form'
-import Video from './Video';
 import { useEffect, useState } from 'react';
 import {
   createBrowserRouter,
